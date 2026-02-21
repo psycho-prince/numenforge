@@ -1,0 +1,11 @@
+2026-02-21 12:13:38.500 IST [22699] LOG:  starting PostgreSQL 18.2 on aarch64-unknown-linux-android, compiled by Android (13989888, +pgo, +bolt, +lto, +mlgo, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349), 64-bit
+2026-02-21 12:13:38.502 IST [22699] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-02-21 12:13:38.505 IST [22699] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2026-02-21 12:13:38.518 IST [22711] LOG:  database system was shut down at 2026-02-21 12:13:38 IST
+2026-02-21 12:13:38.537 IST [22699] LOG:  database system is ready to accept connections
+2026-02-21 12:13:39.091 IST [22737] ERROR:  syntax error at or near "user" at character 12
+2026-02-21 12:13:39.091 IST [22737] STATEMENT:  ALTER USER user WITH PASSWORD 'password';
+2026-02-21 12:18:38.619 IST [22709] LOG:  checkpoint starting: time
+2026-02-21 12:20:15.706 IST [22709] LOG:  checkpoint complete: wrote 960 buffers (5.9%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=96.963 s, sync=0.100 s, total=97.088 s; sync files=314, longest=0.004 s, average=0.001 s; distance=4432 kB, estimate=4432 kB; lsn=0/1BB7F50, redo lsn=0/1BB7EC0
+2026-02-21 12:33:38.953 IST [22709] LOG:  checkpoint starting: time
+2026-02-21 12:33:44.763 IST [22709] LOG:  checkpoint complete: wrote 56 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.729 s, sync=0.034 s, total=5.811 s; sync files=49, longest=0.005 s, average=0.001 s; distance=251 kB, estimate=4014 kB; lsn=0/1BF6CE0, redo lsn=0/1BF6C50
